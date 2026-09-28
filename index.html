@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/browser@4.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start Home Section -->
+    <section class="home-section h-[750px] bg-cover bg-center">
+      <div class="container mx-auto w-[90%]">
+        <!-- Navbar -->
+        <nav class="flex items-center justify-between py-12">
+          <!-- Logo -->
+          <a href="#">
+            <img
+              src="./img/mad.png"
+              alt="Madrasty Logo"
+              class="w-[100px] md:w-[120px]"
+            />
+          </a>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center gap-10">
+            <ul class="flex items-center gap-10 text-white text-2xl font-bold">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Affairs</a></li>
+              <li><a href="#">Subject</a></li>
+            </ul>
+
+            <button
+              class="bg-[#f47b6b] text-white font-bold text-xl px-7 py-4 rounded-md"
+            >
+              Log out
+            </button>
+          </div>
+
+          <!-- Mobile Button -->
+          <button id="menuBtn" class="md:hidden text-white text-3xl">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div
+          id="mobileMenu"
+          class="hidden md:hidden bg-white rounded-lg p-5 shadow-lg"
+        >
+          <ul class="flex flex-col gap-4 text-gray-700 font-bold">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Affairs</a></li>
+            <li><a href="#">Subject</a></li>
+
+            <li>
+              <button class="bg-[#f47b6b] text-white px-5 py-2 rounded-md">
+                Log out
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Content -->
+        <div class="grid lg:grid-cols-2 items-center min-h-[600px]">
+          <div
+            class="bg-[#59a38f] rounded-[40px] w-full max-w-[600px] px-12 py-[60px] text-white"
+          >
+            <p class="font-mono text-3xl md:text-4xl lg:text-5xl leading-[1.8]">
+              Always laugh<br />
+              when you can,<br />
+              it is free<br />
+              medicine
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+
+    <!-- Start Content -->
+    <div class="container mx-auto px-6">
+      <!-- Section Title -->
+      <div class="text-center mt-10 mb-24">
+        <h2 class="text-5xl text-[#056b75] font-semibold">School clinic</h2>
+
+        <div class="w-70 h-1.5 bg-orange-500 mx-auto mt-6"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <!-- Images -->
+        <div class="w-full flex justify-center">
+          <img
+            src="img/compo.png"
+            alt="School Clinic"
+            class="w-[90%] max-w-[700px]"
+          />
+        </div>
+
+        <!-- Text -->
+        <div class="pr-5">
+          <h2 class="text-4xl text-[#078894] mb-5 font-medium">
+            The school clinic services
+          </h2>
+
+          <p class="text-xl leading-[1.8] text-black">
+            Conducting periodic checks for students. Implementing vaccination
+            programs to prevent diseases, according to the instructions of the
+            Ministry of Health. Follow-up of sick cases and contact with parents
+            to attend if the case requires. Providing a healthy environment in
+            the school community.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Content -->
+
+    <!-- start of the touch home section -->
+    <section class="touch-home lg:h-[750px] pb-15 bg-cover mt-10 pt-20">
+      <div class="container w-[90%] m-auto">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div class="md:col-span-2 lg:col-span-4">
+            <h2 class="text-center text-2xl text-white mb-10 font-semibold">
+              Don't Hesetgate to be in Touch
+            </h2>
+          </div>
+
+          <div class="bg-white p-6 rounded-[10px]">
+            <img
+              src="img/s1.png"
+              class="md:w[50%] lg:w-[70] blook m-auto mb-10"
+            />
+            <h5 class="mt-3 text-xl text-[#439da5]">Frist Aids</h5>
+            <p>
+              Providing general safety and first aid supplies. Conducting the
+              necessary first aid and referring emergency cases to hospitals
+              when necessary.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-[10px]">
+            <img
+              src="img/s2.png"
+              class="md:w[50%] lg:w-[70] blook m-auto mb-10"
+            />
+            <h5 class="mt-3 text-xl text-[#439da5] mb-2">Frist Aids</h5>
+            <p>
+              Conducting awareness and educational lectures on public health and
+              the importance of eating healthy foods.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-[10px]">
+            <img
+              src="img/s3.png"
+              class="md:w[50%] lg:w-[70] blook m-auto mb-10"
+            />
+            <h5 class="mt-3 text-xl text-[#439da5] mb-2">Frist Aids</h5>
+            <p>
+              Do a regular dental checkup. Spreading awareness and promoting
+              healthy behavior among students of basic grades.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-[10px]">
+            <img
+              src="img/s4.png"
+              class="md:w[50%] lg:w-[70] blook m-auto mb-10"
+            />
+            <h5 class="mt-3 text-xl text-[#439da5] mb-2">Frist Aids</h5>
+            <p>
+              The doctor or nurse handles simple ambulance cases, while the
+              student is transferred to the hospital if necessary within the
+              coverage program.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of the touch home section -->
+
+    <!-- start about section -->
+    <section class="about-home my-10">
+      <div class="container w-[90%] m-auto">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4">
+          <div class="col-span-1">
+            <img
+              src="img/Group 182.png"
+              class="w[50%] lg:w-[70%] blook m-auto mb-10"
+            />
+          </div>
+          <div class="col-span-1">
+            <img
+              src="img/Group 182.png"
+              class="w[50%] lg:w-[70%] blook m-auto mb-10"
+            />
+          </div>
+          <div class="col-span-1">
+            <img
+              src="img/Group 182.png"
+              class="w[50%] lg:w-[70%] blook m-auto mb-10"
+            />
+          </div>
+          <div class="col-span-1">
+            <img
+              src="img/Group 182.png"
+              class="w[50%] lg:w-[70%] blook m-auto mb-10"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- start footer home section -->
+    <footer
+      class="footer-home bg-[#0f7b65] py-20 rounded-[150px_150px_0px_0px]"
+    >
+      <div class="container w3xl m-auto">
+        <div class="grid md:grid-cols-6">
+          <div class="md:col-span-3 text-center text-white">
+            <h2 class="text-3xl mt-3 mb-5">Madrasty</h2>
+            <p>
+              The Best collection of international schools For All Student In
+              All<br />
+              different Ages From six years to 15 years
+            </p>
+          </div>
+
+          <div class="col-span-1 text-center md:text-left">
+            <h5 class="text-xl text-[#d08e7f] font-semibold">Student</h5>
+            <a href="#" class="block text-white mt-3">Result</a>
+            <a href="#" class="block text-white mt-3">Exams</a>
+            <a href="#" class="block text-white mt-3">Quizes</a>
+            <a href="#" class="block text-white mt-3">Courses</a>
+          </div>
+          <div class="col-span-1 text-center md:text-left">
+            <h5 class="text-xl text-[#d08e7f] font-semibold">News</h5>
+            <a href="#" class="block text-white mt-3">Uniform</a>
+            <a href="#" class="block text-white mt-3">Chapion</a>
+            <a href="#" class="block text-white mt-3">Tables</a>
+          </div>
+          <div class="col-span-1 text-center md:text-left">
+            <h5 class="text-xl text-[#d08e7f] font-semibold">Contact</h5>
+            <a href="#" class="block text-white mt-3">2033500394</a>
+            <a href="#" class="block text-white mt-3">Or32@Yahoo.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of footer home section -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
